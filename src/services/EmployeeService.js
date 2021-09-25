@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 //const EMPLOYEE_API_BASE_URL = "http://localhost:8080/api/v1/employees";
-//const EMPLOYEE_API_BASE_URL = "https://springboot-postgresql-ex.herokuapp.com/api/v1/employees";
-const EMPLOYEE_API_BASE_URL = "http://springbootbackend-env.eba-fn5yp9i8.us-east-2.elasticbeanstalk.com/api/v1/employees"
+const EMPLOYEE_API_BASE_URL = "https://springboot-postgresql-ex.herokuapp.com/api/v1/employees";
+//const EMPLOYEE_API_BASE_URL = "https://springbootbackend-env.eba-fn5yp9i8.us-east-2.elasticbeanstalk.com/api/v1/employees"
 
 class EmployeeService{
     getEmployees(){
